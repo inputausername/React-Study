@@ -1,6 +1,4 @@
-# React-Study
-
-https://past-coin-f97.notion.site/React-2023-3950e9017a854ce7939af6e9f15bde37
+# [React-Study](https://past-coin-f97.notion.site/React-2023-3950e9017a854ce7939af6e9f15bde37)
 
 React & Express 를 이용한 웹 어플리케이션 개발하기
 
