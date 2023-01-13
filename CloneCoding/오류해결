@@ -1,0 +1,20 @@
+1. npm install에서 bcrypt와 관련된 오류.
+bcrypt에 문제가 생겨서 생긴 오류이니 삭제하고 bcryptjs를 설치한다.
+
+
+npm remove bcrypt -> npm install bcryptjs -> npm install
+User.js에서 const bcrypt = require('bcrypt'); -> const bcrypt = require('bcryptjs');로 바꾸기.
+
+
+2. npm run dev에서 발생된 다양한 오류. [MongoDB Connected... 에서 창이 안 뜨는 오류, app crashed 오류, node[번호] 오류, 포트 오류 등등]
+
+node와 npm을 강의와 같은 버전으로 설치한다.
+
+MongoDB에서 IP를 본인 IP로 한다. (공용 IP X)
+
+1번에서 npm install을 하고 npm remove bcrypt를 하면 에러가 발생 할 수 있으니 remove 먼저 진행하고 뒤에는 그대로 따라한다.
+
+clinet에 npm install 할 때 cd client로 들어가서 실행한다.(clinet에 있는 package.json 파일 더블클릭하면 안됨.)
+
+
+시도한 것들
