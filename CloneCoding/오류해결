@@ -17,4 +17,10 @@ MongoDB에서 IP를 본인 IP로 한다. (공용 IP X)
 clinet에 npm install 할 때 cd client로 들어가서 실행한다.(clinet에 있는 package.json 파일 더블클릭하면 안됨.)
 
 
+bcrypt와 bcryptjs의 차이
+
+
+bcrypt는 c++로 구현되어 있고 bcryptjs에 비해 빠르다. NodeJS, Node-WebKit 또는 Electron에서만 실행됩니다.
+bcryptjs는 순수 js로 구현되어 있어서 모든 브라우저에 작동이 가능하다.
+
 시도한 것들
